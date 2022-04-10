@@ -16,6 +16,15 @@
 		a, a:hover{
 			color: white;
 		}
+		.rem4{
+			font-size: 4rem;
+		}
+		.rem3{
+			font-size: 3rem;
+		}
+		.rem2{
+			font-size: 2rem;
+		}
 	</style>
 
 </head>
@@ -23,10 +32,10 @@
 <body>
 
 <div class="container-fluid text-center pt-5 text-white">
-  <h1>Alchemy Capital Partners</h1>
-  <h4>Trade Simulator</h4>
+  <h1 class="rem4">Alchemy Capital Partners</h1>
+  <h4 class="rem3">Trade Simulator</h4>
   	<div class="d-grid gap-2 mt-5">
-  		<button class="btn btn-primary" type="button">
+  		<button class="btn btn-primary rem2" type="button">
 			<a HREF="gamezone.io/index.html">
 				GameZone
 			</a>
