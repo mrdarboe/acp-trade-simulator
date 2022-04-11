@@ -34,12 +34,13 @@
 <div class="container-fluid text-center pt-5 text-white">
   <h1 class="rem4">Alchemy Capital Partners</h1>
   <h4 class="rem3">Trade Simulator</h4>
-  	<div class="d-grid gap-2 mt-5">
-  		<button class="btn btn-primary rem2" type="button">
-			<a HREF="gamezone.io/index.html">
+  	<div class="d-grid gap-4 mt-5">
+			<a class="btn btn-primary rem2" HREF="gamezone.io/index.html">
 				GameZone
 			</a>
-		</button>
+			<a class="btn btn-primary rem2" HREF="velaspad.io/index.html">
+				VelasPad
+			</a>
 	</div>
 </div>
 
