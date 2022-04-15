@@ -159,7 +159,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="pulsepad.io/index.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
