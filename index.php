@@ -105,7 +105,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" href="app-ido.nftlaunch.network/projects.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -223,8 +223,8 @@
 
     <h2 class="display-6 text-center mb-4">Upcoming Projects</h2>
 
-    <div class="embed-responsive embed-responsive-16by9 text-center">
-      <iframe class="embed-responsive-item" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmbSeE1hQAHMYSBx1Uv1TAKT2C1acgjoPQxuiyJKde-G6Ui2z33YeAFRd-D4hu5DrMuZxjAi4D9aA7/pubhtml?widget=true&amp;headers=false"></iframe>
+    <div class="embed-responsive embed-responsive-4by3 text-center mb-4">
+      <iframe class="embed-responsive-item w-100" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRmbSeE1hQAHMYSBx1Uv1TAKT2C1acgjoPQxuiyJKde-G6Ui2z33YeAFRd-D4hu5DrMuZxjAi4D9aA7/pubhtml?widget=true&amp;headers=false"></iframe>
     </div>
 
   </main>
