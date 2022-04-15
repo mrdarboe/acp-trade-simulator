@@ -51,7 +51,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="gamezone.io/index.html" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="gamezone.io/index.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -69,7 +69,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -87,7 +87,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="velaspad.io/index.html" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="velaspad.io/index.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="app-ido.nftlaunch.network/projects.html" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="app-ido.nftlaunch.network/projects.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="metavpad.com/index.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -159,7 +159,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -177,7 +177,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
@@ -213,7 +213,7 @@
               <a href="#" class="card-link">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
