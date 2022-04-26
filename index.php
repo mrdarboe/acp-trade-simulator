@@ -69,7 +69,7 @@
               <a href="#" class="card-link" target="_blank">Watch Video</a>
               <a href="#" class="card-link">Document</a>
             </div>
-            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="#" role="button">Live Practice</a><!--Pad Link-->
+            <a class="w-100 btn btn-lg btn-outline-primary" target="_blank" href="bscpad.com/index.html" role="button">Live Practice</a><!--Pad Link-->
           </div>
         </div>
       </div>
