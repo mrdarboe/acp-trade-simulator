@@ -55,3 +55,8 @@ jQuery(function() {
         retina_detect: !0
     })
 });
+
+function inputAmount(){
+	var txt = "102.494000";
+	document.getElementById("inputAmountSwap").value = txt;
+}

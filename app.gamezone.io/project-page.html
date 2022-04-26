@@ -1,0 +1,816 @@
+<html lang="en">
+    <!-- Mirrored from app.gamezone.io/projects by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Apr 2022 17:56:49 GMT -->
+    <head>
+        <base />
+        <meta charset="utf-8" />
+        <link rel="icon" href="favicon.ico" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no" />
+        <meta name="author" content="GameZone" />
+        <meta name="description" content="GameZone - LaunchPad" />
+        <link rel="apple-touch-icon" href="images/logo.png" />
+        <link rel="manifest" href="manifest.json" />
+        <link rel="stylesheet" href="../fonts.googleapis.com/css2dba2.css?family=Mitr:wght@300;400;500;600;700&amp;display=swap" />
+        <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta2/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../cdn.jsdelivr.net/npm/%40mdi/font%405.4.55/css/materialdesignicons.min.css" />
+        <link rel="stylesheet" href="../pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="../codeseven.github.io/toastr/build/toastr.min.css" />
+        <link rel="stylesheet" href="css/stylec924.css?v=1.0.6" />
+        <link rel="stylesheet" href="css/theme.css" />
+        <title>GameZone - LaunchPad</title>
+        <link href="static/css/2.b650302e.chunk.css" rel="stylesheet" />
+        <link href="static/css/main.9166dcff.chunk.css" rel="stylesheet" />
+        <link type="text/css" rel="stylesheet" href="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/style.css" />
+        <script type="text/javascript" charset="utf-8" src="chrome-extension://dagdlcijhfbmgkjokkjicnnfimlebcll/page_context.js"></script>
+        <style type="text/css">
+            @font-face {
+                font-weight: 400;
+                font-style: normal;
+                font-family: "Circular-Loom";
+
+                src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2") format("woff2");
+            }
+
+            @font-face {
+                font-weight: 500;
+                font-style: normal;
+                font-family: "Circular-Loom";
+
+                src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2") format("woff2");
+            }
+
+            @font-face {
+                font-weight: 700;
+                font-style: normal;
+                font-family: "Circular-Loom";
+
+                src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2") format("woff2");
+            }
+
+            @font-face {
+                font-weight: 900;
+                font-style: normal;
+                font-family: "Circular-Loom";
+
+                src: url("https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2") format("woff2");
+            }
+        </style>
+    </head>
+    <body screen_capture_injected="true" class="no-bg">
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <div id="rooted">
+            <div aria-busy="false">
+                <nav id="PPNavbar" class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand d-flex align-items-center" href="https://gamezone.io"><img src="images/logo.svg" height="41" alt="GAMEZONE" class="me-2" /></a>
+                        <div class="d-flex align-items-center" style="flex-wrap: nowrap;">
+                            <div class="dropdown d-block d-md-none d-lg-none d-xl-none"></div>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-3 mt-3 mt-lg-0 mb-lg-0 ms-lg-5">
+                                <li class="nav-item"><a aria-current="page" class="nav-link active" href="/projects">Projects</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/staking">Stake</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/unstaking">Unstake &amp; Withdraw</a></li>
+                            </ul>
+                            <ul class="navbar-nav ms-auto mb-2 mb-md-0 connected">
+                                <li class="nav-item me-2">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#walletModal" class="btn btn-oht btn--custom bordered bordered--btn bordered--btn_no-angled position-relative px-3 px-xl-4">
+                                        <span><b>0x8A...0ce1</b> - 0.0000 $GZONE</span>
+                                        <div class="btn-rect btn-rect--1"></div>
+                                        <div class="btn-rect btn-rect--2"></div>
+                                        <div class="btn-rect btn-rect--3"></div>
+                                        <div class="btn-rect btn-rect--4"></div>
+                                        <div class="btn-circle btn-circle--1"></div>
+                                        <div class="btn-circle btn-circle--2"></div>
+                                        <div class="btn-circle btn-circle--3"></div>
+                                        <div class="btn-circle btn-circle--4"></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <div class="pp-detail-page" style="">
+                    <div class="pp-detail-banner mb-5 pb-5">
+                        <div class="container" style="">
+                            <section id="welcome" class="section welcome mb-5">
+                                <div class="wrapper">
+                                    <div class="welcome__wrapper">
+                                        <div class="icon-box text-center position-relative zindex2"><img class="mx-auto img-project-logo" src="images/alchemy.jpg" alt="AlchemyDAO" /></div>
+                                        <h2 class="welcome__title title title--center title--grad mb-0 position-relative zindex2">AlchemyDAO</h2>
+                                        <p class="mb-0 text-center text-white position-relative" style="font-size: 20px;">Play to earn gaming on the ACP blockchain!</p>
+                                        <div class="item-social position-relative zindex2">
+                                            <a href="https://vervetv.app/" target="_blank"><i class="fas fa-globe-americas"></i></a><a href="https://twitter.com/Verve_TV" target="_blank"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://t.me/VerveOfficial" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                                        </div>
+                                        <div class="welcome__bg"><img src="images/welcome-bg.png" class="w-100" alt="" /></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <div class="intro__section position-relative" style="max-width: 100%;">
+                                <div class="bordered">
+                                    <div class="bordered__inner bordered--flex bordered--single_angled bordered--card">
+                                        <div class="bordered__block position-relative">
+                                            <div class="items-morex">
+                                                <span class="pp-status-opening text-warning"><i class="mdi mdi-circle text-warning"></i> Open</span>
+                                            </div>
+                                            <div class="mb-4">
+                                                <div class="pp-card-info mt-2">
+                                                    <div class="pp-card-col w-100">
+                                                        Your balance<br />
+                                                        <div class="d-flex justify-content-between align-items-center mb-2"><strong class="text-white detail-value" id="idBusdBalance">0.0000 BUSD</strong></div>
+                                                        <div class="d-flex justify-content-between align-items-center mb-3"><strong id="idKcsBalance" class="text-white detail-value">0.0000 BNB</strong></div>
+                                                        <div class="pp-card-col mb-3 mb-md-0">
+                                                            Your approved amount:<br />
+                                                            <b class="text-white detail-value">0.0000 BUSD</b>
+                                                        </div>
+                                                    </div>
+                                                    <div class="pp-card-col w-100">
+                                                        <div>
+                                                            Your tier<br />
+                                                            <b class="text-white detail-value">-</b>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="d-flex flex-wrap" style="gap: 20px;">
+                                                    <button
+                                                        type="button"
+                                                        disabled=""
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#approveModal"
+                                                        class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative"
+                                                        style="min-width: 180px;"
+                                                    >
+                                                        <span>Approve</span>
+                                                        <div class="btn-rect btn-rect--1"></div>
+                                                        <div class="btn-rect btn-rect--2"></div>
+                                                        <div class="btn-rect btn-rect--3"></div>
+                                                        <div class="btn-rect btn-rect--4"></div>
+                                                        <div class="btn-circle btn-circle--1"></div>
+                                                        <div class="btn-circle btn-circle--2"></div>
+                                                        <div class="btn-circle btn-circle--3"></div>
+                                                        <div class="btn-circle btn-circle--4"></div>
+                                                    </button>
+                                                    <button
+                                                        type="button"
+                                                        data-bs-toggle="modal"
+                                                        data-bs-target="#buyModal"
+                                                        class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative"
+                                                        style="min-width: 180px;"
+                                                    >
+                                                        <span>Join Pool</span>
+                                                        <div class="btn-rect btn-rect--1"></div>
+                                                        <div class="btn-rect btn-rect--2"></div>
+                                                        <div class="btn-rect btn-rect--3"></div>
+                                                        <div class="btn-rect btn-rect--4"></div>
+                                                        <div class="btn-circle btn-circle--1"></div>
+                                                        <div class="btn-circle btn-circle--2"></div>
+                                                        <div class="btn-circle btn-circle--3"></div>
+                                                        <div class="btn-circle btn-circle--4"></div>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bordered__block position-relative pb-5" style="flex: 1 1 0%;">
+                                            <div>
+                                                <div class="pp-card-info mt-2 text-white"><div>CLOSED</div></div>
+                                                <div>
+                                                    <hr class="mb-2 mt-2" />
+                                                    <div class="pp-card-info">
+                                                        <div class="d-flex justify-content-between w-100">
+                                                            <div class="pp-card-col w-100">
+                                                                Swapped<br />
+                                                                <b id="idUseParticipation" class="detail-value">0.0000 BUSD</b>
+                                                                <div><b class="detail-value"> 0.0000 AlchemyDAO</b></div>
+                                                            </div>
+                                                            <div class="pp-card-col w-100">
+                                                                Remaining Allocation<br />
+                                                                <b id="idBusdMaxBuy" class="detail-value">0.0000 BUSD</b>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <hr class="mb-2 mt-2" />
+                                                <div class="pp-card-info">
+                                                    <div class="d-flex justify-content-between w-100">
+                                                        <div class="pp-card-col w-100">
+                                                            Swap progress<br />
+                                                            <div class="pp-card-progress">
+                                                                <div class="pp-card-progress-percent" style="width: 100.032%;"></div>
+                                                                <div class="pp-card-progress-label">
+                                                                    <span><b>100.03%</b></span><span><b>100031.6253/100000 BUSD</b></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bordered__icon bordered__icon--left"><img src="images/bordered-lines.svg" alt="" /></div>
+                                <div class="bordered__icon bordered__icon--bottom_right bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pp-detail-content mt-5">
+                        <div class="container">
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="py-3">
+                                        <div class="row gx-xl-5">
+                                            <div class="col-lg-6">
+                                                <div class="unlock__bordered bordered mx-auto" style="max-width: 100%;">
+                                                    <div class="bordered__inner bordered--flex bordered--double_angled bordered--bg_right">
+                                                        <div class="bordered__block pb-3 p-2-mb">
+                                                            <div class="block-title"><h4>Pool information</h4></div>
+                                                            <div class="table-responsive">
+                                                                <table class="table mb-0 pp-table-info text-white">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>Opens</td>
+                                                                            <td class="text-end"><h5 class="mb-0">01-20 08:00 UTC</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>FCFS Opens</td>
+                                                                            <td class="text-end"><h5 class="mb-0">01-20 12:55 UTC</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Closes</td>
+                                                                            <td class="text-end"><h5 class="mb-0">01-20 14:10 UTC</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Swap Rate</td>
+                                                                            <td class="text-end">
+                                                                                <h5 class="mb-0" id="idBusdConvert"><span class="text-nowrap">1 USD</span><span class="text-nowrap"> = 1000.0000 AlchemyDAO</span></h5>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Cap</td>
+                                                                            <td class="text-end"><h5 class="mb-0">100000 BUSD</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Total Users Participated</td>
+                                                                            <td class="text-end"><h5 class="mb-0">3136</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Total Funds Swapped</td>
+                                                                            <td class="text-end"><h5 class="mb-0 text-nowrap">100031.6253 BUSD</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Access Type</td>
+                                                                            <td class="text-end"><h5 class="mb-0">Private</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="pb-3" colspan="2"><br /></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="bordered__border bordered__border--left"></div>
+                                                            <div class="bordered__border bordered__border--right"></div>
+                                                        </div>
+                                                        <div class="bordered__icon bordered__icon--top_left bordered__icon--horizont bordered__icon--horizont_top"><img src="images/bordered-lines.svg" alt="" /></div>
+                                                        <div class="bordered__icon bordered__icon--bottom_center bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="unlock__bordered bordered mx-auto" style="max-width: 100%;">
+                                                    <div class="bordered__inner bordered--flex bordered--double_angled bordered--bg_right">
+                                                        <div class="bordered__block pb-3 p-2-mb">
+                                                            <div class="block-title"><h4>Token information</h4></div>
+                                                            <div class="table-responsive">
+                                                                <table class="table mb-0 pp-table-info text-white">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>Name</td>
+                                                                            <td class="text-end"><h5 class="mb-0">AlchemyDAO</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Token Symbol</td>
+                                                                            <td class="text-end"><h5 class="mb-0">AlchemyDAO</h5></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="bordered__border bordered__border--left"></div>
+                                                            <div class="bordered__border bordered__border--right"></div>
+                                                        </div>
+                                                        <div class="bordered__icon bordered__icon--top_left bordered__icon--horizont bordered__icon--horizont_top"><img src="images/bordered-lines.svg" alt="" /></div>
+                                                        <div class="bordered__icon bordered__icon--bottom_center bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                                                    </div>
+                                                </div>
+                                                <div class="unlock__bordered bordered mx-auto mt-5" style="max-width: 100%;">
+                                                    <div class="bordered__inner bordered--flex bordered--double_angled bordered--bg_right">
+                                                        <div class="bordered__block pb-3 p-2-mb">
+                                                            <div class="block-title"><h4>Schedule</h4></div>
+                                                            <div class="table-responsive">
+                                                                <table class="table mb-0 pp-table-info text-white">
+                                                                    <tbody>
+                                                                        <tr class="card-header" style="border: none;">
+                                                                            <td class="text-white">Round</td>
+                                                                            <td class="text-white">Opens</td>
+                                                                            <td class="text-white">Closes</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="text-white">Allocation</td>
+                                                                            <td><h5 class="mb-0">01-20 08:00 UTC</h5></td>
+                                                                            <td><h5 class="mb-0">01-20 12:55 UTC</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="text-white">FCFS - Prepare</td>
+                                                                            <td><h5 class="mb-0">01-20 12:55 UTC</h5></td>
+                                                                            <td><h5 class="mb-0">01-20 13:10 UTC</h5></td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td class="text-white">FCFS</td>
+                                                                            <td><h5 class="mb-0">01-20 13:10 UTC</h5></td>
+                                                                            <td><h5 class="mb-0">01-20 14:10 UTC</h5></td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="bordered__border bordered__border--left"></div>
+                                                            <div class="bordered__border bordered__border--right"></div>
+                                                        </div>
+                                                        <div class="bordered__icon bordered__icon--top_left bordered__icon--horizont bordered__icon--horizont_top"><img src="images/bordered-lines.svg" alt="" /></div>
+                                                        <div class="bordered__icon bordered__icon--bottom_center bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="py-3">
+                                    <div class="d-flex flex-wrap justify-content-center justify-content-md-end" style="row-gap: 20px;">
+                                        <div>
+                                            <button type="button" class="btn btn-oht btn--custom bordered bordered--btn bordered--btn_no-angled position-relative">
+                                                <span>Add token to <b>MetaMask</b></span>
+                                                <div class="btn-rect btn-rect--1"></div>
+                                                <div class="btn-rect btn-rect--2"></div>
+                                                <div class="btn-rect btn-rect--3"></div>
+                                                <div class="btn-rect btn-rect--4"></div>
+                                                <div class="btn-circle btn-circle--1"></div>
+                                                <div class="btn-circle btn-circle--2"></div>
+                                                <div class="btn-circle btn-circle--3"></div>
+                                                <div class="btn-circle btn-circle--4"></div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="unlock__bordered bordered mx-auto mt-4" style="max-width: 100%;">
+                                        <div class="bordered__inner bordered--flex bordered--double_angled">
+                                            <div class="bordered__block pb-3 p-2-mb">
+                                                <div class="block-title"><h4>Your Allocation</h4></div>
+                                                <div class="d-lg-none d-block mt-4">
+                                                    <div class="allocation-card">
+                                                        <div>#1</div>
+                                                        <div>
+                                                            <span>Allocation</span>
+                                                            <h4>0.0000</h4>
+                                                        </div>
+                                                        <div>
+                                                            <span>Percentage</span>
+                                                            <h4>10.00%</h4>
+                                                        </div>
+                                                        <div>
+                                                            <span>Date</span>
+                                                            <h4>DEX Listing</h4>
+                                                        </div>
+                                                        <div>
+                                                            <span>Claimed</span>
+                                                            <h4>0.0000</h4>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative w-100" style="min-width: 170px;">
+                                                                <span>Claim Tokens</span>
+                                                                <div class="btn-rect btn-rect--1"></div>
+                                                                <div class="btn-rect btn-rect--2"></div>
+                                                                <div class="btn-rect btn-rect--3"></div>
+                                                                <div class="btn-rect btn-rect--4"></div>
+                                                                <div class="btn-circle btn-circle--1"></div>
+                                                                <div class="btn-circle btn-circle--2"></div>
+                                                                <div class="btn-circle btn-circle--3"></div>
+                                                                <div class="btn-circle btn-circle--4"></div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                    <div class="allocation-card">
+                                                        <div>#2</div>
+                                                        <div>
+                                                            <span>Allocation</span>
+                                                            <h4>0.0000</h4>
+                                                        </div>
+                                                        <div>
+                                                            <span>Percentage</span>
+                                                            <h4>90.00%</h4>
+                                                        </div>
+                                                        <div>
+                                                            <span>Date</span>
+                                                            <h4>
+                                                                <div>22-02-20 15:00 <span class="mx-1 text-secondary">to</span> 22-10-20 15:00</div>
+                                                            </h4>
+                                                        </div>
+                                                        <div>
+                                                            <span>Claimed</span>
+                                                            <h4>0.0000</h4>
+                                                        </div>
+                                                        <div>
+                                                            <button type="button" class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative w-100" style="min-width: 170px;">
+                                                                <span>Claim Tokens</span>
+                                                                <div class="btn-rect btn-rect--1"></div>
+                                                                <div class="btn-rect btn-rect--2"></div>
+                                                                <div class="btn-rect btn-rect--3"></div>
+                                                                <div class="btn-rect btn-rect--4"></div>
+                                                                <div class="btn-circle btn-circle--1"></div>
+                                                                <div class="btn-circle btn-circle--2"></div>
+                                                                <div class="btn-circle btn-circle--3"></div>
+                                                                <div class="btn-circle btn-circle--4"></div>
+                                                            </button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-none d-lg-block">
+                                                    <div class="table-responsive">
+                                                        <table class="table mb-5 pp-table-info text-white">
+                                                            <tbody>
+                                                                <tr class="card-header" style="border: none;">
+                                                                    <td>No.</td>
+                                                                    <td>Allocation</td>
+                                                                    <td>Percentage</td>
+                                                                    <td>Date</td>
+                                                                    <td>Claimed</td>
+                                                                    <td>Action</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h5 class="mb-0">1</h5></td>
+                                                                    <td><h5 class="mb-0">0.0000</h5></td>
+                                                                    <td><h5 class="mb-0">10.00%</h5></td>
+                                                                    <td><h5 class="mb-0">DEX Listing</h5></td>
+                                                                    <td><h5 class="mb-0">0.0000</h5></td>
+                                                                    <td>
+                                                                        <button
+                                                                            type="button"
+                                                                            class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative"
+                                                                            style="min-width: 170px;"
+                                                                        >
+                                                                            <span>Claim Tokens</span>
+                                                                            <div class="btn-rect btn-rect--1"></div>
+                                                                            <div class="btn-rect btn-rect--2"></div>
+                                                                            <div class="btn-rect btn-rect--3"></div>
+                                                                            <div class="btn-rect btn-rect--4"></div>
+                                                                            <div class="btn-circle btn-circle--1"></div>
+                                                                            <div class="btn-circle btn-circle--2"></div>
+                                                                            <div class="btn-circle btn-circle--3"></div>
+                                                                            <div class="btn-circle btn-circle--4"></div>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><h5 class="mb-0">2</h5></td>
+                                                                    <td><h5 class="mb-0">0.0000</h5></td>
+                                                                    <td><h5 class="mb-0">90.00%</h5></td>
+                                                                    <td>
+                                                                        <h5 class="mb-0">
+                                                                            <div>22-02-20 15:00 <span class="mx-1 text-secondary">to</span> 22-10-20 15:00</div>
+                                                                        </h5>
+                                                                    </td>
+                                                                    <td><h5 class="mb-0">0.0000</h5></td>
+                                                                    <td>
+                                                                        <button
+                                                                            type="button"
+                                                                            class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative"
+                                                                            style="min-width: 170px;"
+                                                                        >
+                                                                            <span>Claim Tokens</span>
+                                                                            <div class="btn-rect btn-rect--1"></div>
+                                                                            <div class="btn-rect btn-rect--2"></div>
+                                                                            <div class="btn-rect btn-rect--3"></div>
+                                                                            <div class="btn-rect btn-rect--4"></div>
+                                                                            <div class="btn-circle btn-circle--1"></div>
+                                                                            <div class="btn-circle btn-circle--2"></div>
+                                                                            <div class="btn-circle btn-circle--3"></div>
+                                                                            <div class="btn-circle btn-circle--4"></div>
+                                                                        </button>
+                                                                    </td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                                <div class="bordered__border bordered__border--left"></div>
+                                                <div class="bordered__border bordered__border--right"></div>
+                                            </div>
+                                            <div class="bordered__icon bordered__icon--top_left bordered__icon--horizont bordered__icon--horizont_top"><img src="images/bordered-lines.svg" alt="" /></div>
+                                            <div class="bordered__icon bordered__icon--bottom_center bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-5 container">
+                            <div class="pp-footer">
+                                <div class="container-fluid">
+                                    <div class="d-flex justify-content-between pp-footer-content">
+                                        <div>Copyright © 2022. All Rights Reserved by GameZone</div>
+                                        <div>v1.0.6</div>
+                                        <div class="text-end pp-footer-link">
+                                            <a target="_blank" href="/privacy-policy">Privacy Policy </a><span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a target="_blank" href="/cookies-policy">Cookies Policy </a>
+                                            <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span><a target="_blank" href="/terms-conditions">Terms of Use </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="connectWalletModal" tabindex="-1" aria-labelledby="connectWalletModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered modal-sm">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="connectWalletModalLabel">Connect to wallet</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body p-4">
+                                            <button type="button" class="btn btn--custom bordered bordered--btn bordered--btn_no-angled position-relative w-100 mb-4" data-bs-dismiss="modal">
+                                                <img class="me-2" src="images/metamask.svg" height="26" alt="injected" /><span>Metamask</span>
+                                                <div class="btn-rect btn-rect--1"></div>
+                                                <div class="btn-rect btn-rect--2"></div>
+                                                <div class="btn-rect btn-rect--3"></div>
+                                                <div class="btn-rect btn-rect--4"></div>
+                                                <div class="btn-circle btn-circle--1"></div>
+                                                <div class="btn-circle btn-circle--2"></div>
+                                                <div class="btn-circle btn-circle--3"></div>
+                                                <div class="btn-circle btn-circle--4"></div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="walletModal" tabindex="-1" aria-labelledby="walletModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-md modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="walletModalLabel">Your wallet</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="mb-3 text-center">
+                                                <h5 class="mb-3" style="font-size: 17px; word-break: break-word;"><b>0x8AdF5781a29c0Efd3cf0a7428eE4c56795260ce1</b></h5>
+                                                <a href="https://bscscan.com/address/0x8AdF5781a29c0Efd3cf0a7428eE4c56795260ce1" target="_blank" class="d-inline-flex align-items-center me-4" style="text-decoration: none;">
+                                                    <span class="me-1">View on BscScan</span><i class="mdi mdi-open-in-new"></i>
+                                                </a>
+                                                <a class="d-inline-flex align-items-center" href="#" style="text-decoration: none;"><span class="me-1">Copy Address</span><i class="mdi mdi-content-copy"></i></a>
+                                            </div>
+                                            <div class="text-center mt-4">
+                                                <button type="button" class="btn btn--custom bordered bordered--btn bordered--btn_no-angled position-relative mb-4" data-bs-dismiss="modal" style="min-width: 150px;">
+                                                    <span>Logout</span>
+                                                    <div class="btn-rect btn-rect--1"></div>
+                                                    <div class="btn-rect btn-rect--2"></div>
+                                                    <div class="btn-rect btn-rect--3"></div>
+                                                    <div class="btn-rect btn-rect--4"></div>
+                                                    <div class="btn-circle btn-circle--1"></div>
+                                                    <div class="btn-circle btn-circle--2"></div>
+                                                    <div class="btn-circle btn-circle--3"></div>
+                                                    <div class="btn-circle btn-circle--4"></div>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="buyModal" tabindex="-1" aria-labelledby="buyModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-md modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="buyModalLabel">Join AlchemyDAO Pool</h5>
+                                <div class="d-flex align-items-center"><button type="button" class="btn-close me-2" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            </div>
+                            <div class="modal-body pb-5">
+                                <div class="unlock__bordered bordered mx-auto mt-5" style="max-width: 100%; width: 400px;">
+                                    <div class="bordered__inner bordered--flex bordered--double_angled bordered--bg_right">
+                                        <div class="bordered__block pb-3">
+                                            <div class="text-start">
+                                                <div class="p-form-group">
+                                                    <label class="form-label p-main-text">BUSD Amount</label>
+                                                    <div class="btn btn--custom bordered bordered--btn bordered--btn_no-angled position-relative w-100 py-0">
+                                                        <div class="d-flex align-items-center justify-content-between px-3 w-100">
+                                                            <input type="number" class="form-control px-0" placeholder="0" id="inputAmountSwap" value="0" /><span style="cursor: pointer;" onclick="inputAmount()">MAX</span>
+                                                        </div>
+                                                        <div class="btn-circle btn-circle--2"></div>
+                                                        <div class="btn-circle btn-circle--4"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-start justify-content-between">
+                                                    <div class="font-14">Your balance: <b class="text-warning">0.0000 BUSD</b></div>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bordered__border bordered__border--left"></div>
+                                        <div class="bordered__border bordered__border--right"></div>
+                                    </div>
+                                    <div class="bordered__icon bordered__icon--top_left bordered__icon--horizont bordered__icon--horizont_top"><img src="images/bordered-lines.svg" alt="" /></div>
+                                    <div class="bordered__icon bordered__icon--bottom_center bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                                </div>
+                                <div class="get-start mt-5 text-center" style="column-gap: 10px;">
+                                    <button type="button" data-bs-dismiss="modal" class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative" style="min-width: 180px;">
+                                        <span>Join</span>
+                                        <div class="btn-rect btn-rect--1"></div>
+                                        <div class="btn-rect btn-rect--2"></div>
+                                        <div class="btn-rect btn-rect--3"></div>
+                                        <div class="btn-rect btn-rect--4"></div>
+                                        <div class="btn-circle btn-circle--1"></div>
+                                        <div class="btn-circle btn-circle--2"></div>
+                                        <div class="btn-circle btn-circle--3"></div>
+                                        <div class="btn-circle btn-circle--4"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="approveModal" tabindex="-1" aria-labelledby="approveModalLabel" aria-hidden="true" data-bs-backdrop="static" data-bs-keyboard="false">
+                    <div class="modal-dialog modal-md modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="approveModalLabel">Join AlchemyDAO Pool</h5>
+                                <div class="d-flex align-items-center"><button type="button" class="btn-close me-2" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            </div>
+                            <div class="modal-body pb-5">
+                                <div class="unlock__bordered bordered mx-auto mt-5" style="max-width: 100%; width: 400px;">
+                                    <div class="bordered__inner bordered--flex bordered--double_angled bordered--bg_right">
+                                        <div class="bordered__block pb-3">
+                                            <div class="text-start">
+                                                <div class="p-form-group">
+                                                    <label class="form-label p-main-text">BUSD Amount</label>
+                                                    <div class="btn btn--custom bordered bordered--btn bordered--btn_no-angled position-relative w-100 py-0">
+                                                        <div class="d-flex align-items-center justify-content-between px-3 w-100">
+                                                            <input type="number" class="form-control px-0" placeholder="0" id="inputAmountApprove" value="0" /><span style="cursor: pointer;">MAX</span>
+                                                        </div>
+                                                        <div class="btn-circle btn-circle--2"></div>
+                                                        <div class="btn-circle btn-circle--4"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex align-items-start justify-content-between">
+                                                    <div class="font-14">Your balance: <b class="text-warning">0.0000 </b></div>
+                                                    <div></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="bordered__border bordered__border--left"></div>
+                                        <div class="bordered__border bordered__border--right"></div>
+                                    </div>
+                                    <div class="bordered__icon bordered__icon--top_left bordered__icon--horizont bordered__icon--horizont_top"><img src="images/bordered-lines.svg" alt="" /></div>
+                                    <div class="bordered__icon bordered__icon--bottom_center bordered__icon--horizont bordered__icon--horizont_bottom"><img src="images/bordered-lines.svg" alt="" /></div>
+                                </div>
+                                <div class="get-start mt-5 text-center" style="column-gap: 10px;">
+                                    <button type="button" data-bs-dismiss="modal" class="btn btn-oht btn-connect btn--custom bordered bordered--btn bordered--btn_no-angled position-relative" style="min-width: 180px;">
+                                        <span>Approve</span>
+                                        <div class="btn-rect btn-rect--1"></div>
+                                        <div class="btn-rect btn-rect--2"></div>
+                                        <div class="btn-rect btn-rect--3"></div>
+                                        <div class="btn-rect btn-rect--4"></div>
+                                        <div class="btn-circle btn-circle--1"></div>
+                                        <div class="btn-circle btn-circle--2"></div>
+                                        <div class="btn-circle btn-circle--3"></div>
+                                        <div class="btn-circle btn-circle--4"></div>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <span></span>
+            </div>
+        </div>
+        <div class="ic-loading" id="LAVLoader" style="display: none;"><img src="images/logo.svg" alt="loading..." /></div>
+        <div id="particles-js" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"><canvas class="particles-js-canvas-el" width="390" height="844" style="width: 100%; height: 100%;"></canvas></div>
+        <script src="../cdn.jsdelivr.net/npm/bootstrap%405.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/script.js"></script>
+        <script>
+            !(function (e) {
+                function t(t) {
+                    for (var n, a, i = t[0], c = t[1], f = t[2], s = 0, p = []; s < i.length; s++) (a = i[s]), Object.prototype.hasOwnProperty.call(o, a) && o[a] && p.push(o[a][0]), (o[a] = 0);
+                    for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
+                    for (l && l(t); p.length; ) p.shift()();
+                    return u.push.apply(u, f || []), r();
+                }
+                function r() {
+                    for (var e, t = 0; t < u.length; t++) {
+                        for (var r = u[t], n = !0, i = 1; i < r.length; i++) {
+                            var c = r[i];
+                            0 !== o[c] && (n = !1);
+                        }
+                        n && (u.splice(t--, 1), (e = a((a.s = r[0]))));
+                    }
+                    return e;
+                }
+                var n = {},
+                    o = { 1: 0 },
+                    u = [];
+                function a(t) {
+                    if (n[t]) return n[t].exports;
+                    var r = (n[t] = { i: t, l: !1, exports: {} });
+                    return e[t].call(r.exports, r, r.exports, a), (r.l = !0), r.exports;
+                }
+                (a.e = function (e) {
+                    var t = [],
+                        r = o[e];
+                    if (0 !== r)
+                        if (r) t.push(r[2]);
+                        else {
+                            var n = new Promise(function (t, n) {
+                                r = o[e] = [t, n];
+                            });
+                            t.push((r[2] = n));
+                            var u,
+                                i = document.createElement("script");
+                            (i.charset = "utf-8"),
+                                (i.timeout = 120),
+                                a.nc && i.setAttribute("nonce", a.nc),
+                                (i.src = (function (e) {
+                                    return a.p + "static/js/" + ({}[e] || e) + "." + { 3: "70d99ed8", 4: "2fcf04e7" }[e] + ".chunk.js";
+                                })(e));
+                            var c = new Error();
+                            u = function (t) {
+                                (i.onerror = i.onload = null), clearTimeout(f);
+                                var r = o[e];
+                                if (0 !== r) {
+                                    if (r) {
+                                        var n = t && ("load" === t.type ? "missing" : t.type),
+                                            u = t && t.target && t.target.src;
+                                        (c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + u + ")"), (c.name = "ChunkLoadError"), (c.type = n), (c.request = u), r[1](c);
+                                    }
+                                    o[e] = void 0;
+                                }
+                            };
+                            var f = setTimeout(function () {
+                                u({ type: "timeout", target: i });
+                            }, 12e4);
+                            (i.onerror = i.onload = u), document.head.appendChild(i);
+                        }
+                    return Promise.all(t);
+                }),
+                    (a.m = e),
+                    (a.c = n),
+                    (a.d = function (e, t, r) {
+                        a.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r });
+                    }),
+                    (a.r = function (e) {
+                        "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 });
+                    }),
+                    (a.t = function (e, t) {
+                        if ((1 & t && (e = a(e)), 8 & t)) return e;
+                        if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+                        var r = Object.create(null);
+                        if ((a.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e))
+                            for (var n in e)
+                                a.d(
+                                    r,
+                                    n,
+                                    function (t) {
+                                        return e[t];
+                                    }.bind(null, n)
+                                );
+                        return r;
+                    }),
+                    (a.n = function (e) {
+                        var t =
+                            e && e.__esModule
+                                ? function () {
+                                      return e.default;
+                                  }
+                                : function () {
+                                      return e;
+                                  };
+                        return a.d(t, "a", t), t;
+                    }),
+                    (a.o = function (e, t) {
+                        return Object.prototype.hasOwnProperty.call(e, t);
+                    }),
+                    (a.p = "index.html"),
+                    (a.oe = function (e) {
+                        throw (console.error(e), e);
+                    });
+                var i = (this["webpackJsonpgame-zone-staking-frontend"] = this["webpackJsonpgame-zone-staking-frontend"] || []),
+                    c = i.push.bind(i);
+                (i.push = t), (i = i.slice());
+                for (var f = 0; f < i.length; f++) t(i[f]);
+                var l = c;
+                r();
+            })([]);
+        </script>
+        <script src="static/js/2.00cedfe8.chunk.js"></script>
+        <script src="static/js/main.0efbb413.chunk.js"></script>
+        <!-- Mirrored from app.gamezone.io/projects by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 10 Apr 2022 17:56:49 GMT -->
+    </body>
+    <loom-container id="lo-engage-ext-container"><loom-shadow classname="resolved"></loom-shadow></loom-container>
+    <loom-container id="lo-companion-container"><loom-shadow classname="resolved"></loom-shadow></loom-container>
+</html>
